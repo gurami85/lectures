@@ -13,22 +13,26 @@ In this project, we will be storing the names and prices of a furniture store’
 Lovely Loveseat. Tufted polyester blend on wood. 32 inches high x 40 inches wide x 30 inches deep. Red or white.
 ```
 
-![loveseat](../img/loveseat.jpg){: width="50%" height="50%"}
-
+<img src="../img/loveseat.jpg"  width="20%" height="20%"/>
 
 2. Great, now let’s create a price for the loveseat. Create a variable ```lovely_loveseat_price``` and set it equal to ```254.00```.
 
 3. Let’s extend our inventory with another characteristic piece of furniture! Create a variable called ```stylish_settee_description``` and assign to it the following string:
+
 ```
 Stylish Settee. Faux leather on birch. 29.50 inches high x 54.75 inches wide x 28 inches deep. Black.
 ```
+<img src="../img/settee.jpg"  width="20%" height="20%"/>
 
 4. Now let’s set the price for our Stylish Settee. Create a variable ```stylish_settee_price``` and assign it the value of ```180.50```.
 
 5. Fantastic, we just need one more item before we’re ready for business. Create a new variable called ```luxurious_lamp_description``` and assign it the following:
+
 ```
 Luxurious Lamp. Glass and iron. 36 inches tall. Brown with cream shade.
 ```
+
+<img src="../img/lamp.jpg"  width="20%" height="20%"/>
 
 6. Let’s set the price for this item. Create a variable called ```luxurious_lamp_price``` and set it equal to ```52.15```.
 
