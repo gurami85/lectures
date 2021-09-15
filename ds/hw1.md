@@ -7,8 +7,8 @@ Please note: Projects do not run tests against your code. This experience is mor
 
 If you get stuck during this project or would like to see an experienced developer work through it, click “Get Unstuck“ to see a project walkthrough video.
 
-Let’s add in our first item, the Lovely Loveseat that is the store’s namesake. Create a variable called '''lovely_loveseat_description''' and assign to it the following string:
+Let’s add in our first item, the Lovely Loveseat that is the store’s namesake. Create a variable called ```lovely_loveseat_description``` and assign to it the following string:
 
-'''
+```
 Lovely Loveseat. Tufted polyester blend on wood. 32 inches high x 40 inches wide x 30 inches deep. Red or white.
-'''
+```
