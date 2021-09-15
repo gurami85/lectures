@@ -63,3 +63,11 @@ Define the variable ```sales_tax``` and set it equal to ```.088```. That’s 8.8
 19. Now print out their total! Our first customer now has a receipt for the things they purchased.
 
 20. Congratulations! We created our catalog and served our first customer. We used our knowledge of strings and numbers to create and update variables. We were able to print out an itemized list and a total cost for our customer. Lovely!
+
+### Expected Output
+```
+Customer One Items:
+Lovely Loveseat. Tufted polyester blend on wood. 32 inches high x 40 inches wide x 30 inches deep. Red or white.Luxurious Lamp. Glass and iron. 36 inches tall. Brown with cream shade.
+Customer One Total:
+333.09119999999996
+```
