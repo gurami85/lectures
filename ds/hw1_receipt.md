@@ -13,7 +13,7 @@ In this project, we will be storing the names and prices of a furniture store’
 Lovely Loveseat. Tufted polyester blend on wood. 32 inches high x 40 inches wide x 30 inches deep. Red or white.
 ```
 
-![loveseat](./img/loveseat.jpg)
+![loveseat](../img/loveseat.jpg){: width="50%" height="50%"}
 
 
 2. Great, now let’s create a price for the loveseat. Create a variable ```lovely_loveseat_price``` and set it equal to ```254.00```.
