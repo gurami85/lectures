@@ -5,8 +5,17 @@ You will be calculating some important metrics that Carly can use to plan out th
 
 You have been provided with three lists:
 * ```hairstyles```: the names of the cuts offered at Carly’s Clippers.
+```
+hairstyles = ["bouffant", "pixie", "dreadlocks", "crew", "bowl", "bob", "mohawk", "flattop"]
+```
 * ```prices```: the price of each hairstyle in the ```hairstyles``` list.
+```
+prices = [30, 25, 40, 20, 20, 35, 50, 35]
+```
 * ```last_week```: the number of purchases for each hairstyle type in the last week.
+```
+last_week = [2, 3, 5, 8, 4, 4, 6, 2]
+```
 
 Each index in ```hairstyles``` corresponds to an associated index in ```prices``` and ```last_week```.
 
