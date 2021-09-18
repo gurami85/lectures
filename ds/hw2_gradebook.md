@@ -27,7 +27,14 @@ Assign the value into a variable called ```gradebook```.
 |```"poetry"```|```85```|
 |```"history"```|```88```|
 
-4. Print ```gradebook```. Does it look how you expected it would?
+4. Print ```gradebook```. 
+
+### Expected Output:
+```
+[['physics', 98], ['calculus', 97], ['poetry', 85], ['history', 88], ['computer science', 100], ['visual arts', 98]]
+```
+
+Does it look how you expected it would?
 
 5. Your grade for your computer science class just came in! You got a perfect score, ```100```! 
 Use the ```.append()``` method to add a list with the values of ```"computer science"``` and
