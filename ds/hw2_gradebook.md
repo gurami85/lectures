@@ -31,7 +31,7 @@ Assign the value into a variable called ```gradebook```.
 
 ### Expected Output:
 ```
-[['physics', 98], ['calculus', 97], ['poetry', 85], ['history', 88], ['computer science', 100], ['visual arts', 98]]
+[['physics', 98], ['calculus', 97], ['poetry', 85], ['history', 88]]
 ```
 
 Does it look how you expected it would?
