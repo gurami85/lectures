@@ -18,4 +18,4 @@
 ### 2. 신장 데이터 저장
 
 [data]: https://github.com/gurami85/lectures/blob/main/data/president_heights.csv "president_height.csv"
-신장 데이터 파일: [president_height.csv](https://github.com/gurami85/lectures/blob/main/data/president_heights.csv, "president_height.csv")
+신장 데이터 파일: [president_height.csv](https://github.com/gurami85/lectures/blob/main/data/president_heights.csv)
