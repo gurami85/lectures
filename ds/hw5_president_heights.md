@@ -26,3 +26,34 @@
 2.4 Jupyter Lab 에서 ```data``` 폴더 생성
 
 2.5 ```president_heights.csv``` 를 생성한 ```data``` 폴더에 복사
+
+## 기술통계
+
+### 3. 데이터 로딩
+
+3.1 ```numpy``` 와 ```pandas``` 를 임포트
+
+```python3
+import pandas as pd
+import numpy as np
+```
+
+3.2  ```pandas``` 라이브러리를 이용하여 신장 데이터(```president_heights.csv```)를 불러오기
+
+```python3
+data = pd.read_csv('data/president_heights.csv')
+```
+
+3.3 데이터 불러오기가 정상적으로 완료되었다면  ```data.head()``` 코드를 실행하여 데이터의 일부를 출력
+
+#### 예상 출력결과
+
+|order|name|height(cm)|
+|---|---|---|
+|1|George Washington|189|
+|2|John Adams|170|
+|3|Thomas Jefferson|189|
+|4|James Madison|163|
+|5|James Monroe|183|
+
+
