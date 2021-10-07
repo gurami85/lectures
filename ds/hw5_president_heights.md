@@ -25,7 +25,7 @@
 - Jupyter Lab 에서 ```data``` 폴더 생성
 - ```president_heights.csv``` 를 생성한 ```data``` 폴더에 복사
 
-## 기술통계 및 
+## 기술통계 및 시각화
 
 ### 데이터 로딩
 
