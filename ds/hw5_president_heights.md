@@ -135,3 +135,5 @@ plt.xlabel('height (cm)')
 plt.ylabel('number')
 plt.show()
 ```
+
+<img src="../img/president_heights.png"  width="50%" height="50%"/>
