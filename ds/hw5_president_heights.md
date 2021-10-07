@@ -4,6 +4,8 @@
 
 해당 데이터를 이용하여 역대 대통령들의 키와 관련된 기술통계(descriptive statistics) 분석을 수행하고 그 결과를 시각화하세요.
 
+- 출처: https://github.com/jakevdp/PythonDataScienceHandbook
+
 ## 준비사항
 ### 필수 라이브러리 설치
 
