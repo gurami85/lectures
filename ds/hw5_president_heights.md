@@ -17,7 +17,7 @@
 
 ### 신장 데이터 저장
 
-다음 링크에 접속하여 미국 대통령들의 신장 데이터를 다운로드하여, Jupyter Lab 작업 폴더 밑의 ```data``` 폴더에 저장하세요.
+2. 다음 링크에 접속하여 미국 대통령들의 신장 데이터를 다운로드하여, Jupyter Lab 작업 폴더 밑의 ```data``` 폴더에 저장하세요.
 
 - 신장 데이터 파일 링크: [president_height.csv](https://github.com/gurami85/lectures/blob/main/data/president_heights.csv)
 - 해당 페이지에서 'Raw' 메뉴 클릭하여 파일 텍스트 내용을 확인
@@ -108,5 +108,30 @@ print("The smallest president is", min_name)
 
 #### 예상 출력결과:
 
+```
 The tallest president is Abraham Lincoln
 The smallest president is James Madison
+```
+
+### 시각화
+
+10. 신장 데이터 ```heights``` 를 시각화하기 위해 ```matplotlib.pyplot```과 ```seaborn```을 임포트하세요.
+
+```python3
+from matplotlib import pyplot as plt
+import seaborn
+```
+
+11. 다음의 코드를 통해 시각화 옵션을 설정하고 신장 데이터 ```heights```의 히스토그램을 시각화하여, 역대 미국 대통령들의 키 분포가 어떻게 되는지 확인하세요.
+
+```python3
+%matplotlib inline
+%config InlineBackend.figure_format = 'svg'
+seaborn.set()
+
+plt.hist(heights)
+plt.title('Height Distribution of US President')
+plt.xlabel('height (cm)')
+plt.ylabel('number')
+plt.show()
+```
