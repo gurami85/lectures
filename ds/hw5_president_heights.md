@@ -46,7 +46,7 @@ data = pd.read_csv('data/president_heights.csv')
 
 5. 데이터 불러오기가 정상적으로 완료되었다면  ```data.head()``` 코드를 실행하여 데이터의 일부를 출력하세요.
 
-#### 예상 출력결과:
+#### 출력결과:
 
 |order|name|height(cm)|
 |---|---|---|
@@ -65,7 +65,7 @@ heights = np.array(data['height(cm)'])
 print(heights)
 ```
 
-#### 예상 출력결과:
+#### 출력결과:
 
 ```
 [189 170 189 163 183 171 185 168 173 183 173 173 175 178 183 193 178 173
@@ -77,7 +77,7 @@ print(heights)
 
 7. 배열로 저장한 신장 데이터(```heights```)에 대해 ```numpy```에서 제공하는 집계함수들을 이용하여 기술통계를 수행하세요.
 
-#### 예상 출력결과:
+#### 출력결과:
 
 ```
 Mean height = 179.73809523809524
@@ -91,7 +91,7 @@ Median = 182.0
 
 8. ```heights``` 로부터 키가 가장 큰 대통령의 인덱스와 가장 작은 대통령의 인덱스를 각각 ```max_idx```, ```min_idx``` 변수에 저장 및 출력하세요.
 
-#### 예상 출력결과:
+#### 출력결과:
 
 ```
 max_idx = 15
@@ -108,7 +108,7 @@ print("The tallest president is", max_name)
 print("The smallest president is", min_name)
 ```
 
-#### 예상 출력결과:
+#### 출력결과:
 
 ```
 The tallest president is Abraham Lincoln
