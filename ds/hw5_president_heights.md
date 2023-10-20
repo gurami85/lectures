@@ -12,7 +12,7 @@
 1. 과제 수행에 필요한 라이브러리(```numpy, pandas, matplotlib, seaborn```)들을 모두 설치하세요(이미 설치되어 있는 상태면 skip).
 
 - 설치방법 1: jupyter lab 브라우저의 독립된 셀에서 설치 명령어 실행(셀 안에 명령어 외의 다른 코드 포함 X)
-- 설치방법 2: Anaconda->Environments->Open Terminal 실행 후 터미널에서 설치 명령어 실행
+- 설치방법 2: Anaconda Prompt 실행 후 터미널에서 설치 명령어 실행
 
 #### 예: pandas 설치 명령어
 ```pip install pandas```
