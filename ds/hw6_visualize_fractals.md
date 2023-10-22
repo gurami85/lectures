@@ -19,7 +19,7 @@ from mpl_toolkits.axes_grid1 import make_axes_locatable
 
 <strong> 시각화 설정 코드 </strong> : 별도의 윈도우 창에서 시각화 결과를 출력하는 코드이며, 시각화 결과가 제대로 출력되지 않는 경우에는 ```%matplotlib qt5``` 코드를 삭제하고 커널을 재시작(Kernel-Restart Kernel)하기 바랍니다.
 
-``python
+```python
 %matplotlib qt5
 %config InlineBackend.figure_format = 'svg'
 
